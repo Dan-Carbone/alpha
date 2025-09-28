@@ -1,0 +1,30 @@
+# Secrets et variables d'environnement
+.env
+
+# Dépendances Node.js
+node_modules/
+
+# Fichiers de logs
+*.log
+
+# Dossiers générés par Docker
+**/node_modules/
+**/npm-debug.log
+**/.env
+
+# Dossiers/données temporaires, cache
+tmp/
+dist/
+build/
+
+# Fichiers système macOS et Windows
+.DS_Store
+Thumbs.db
+
+# Fichiers et dossiers Docker à ignorer
+docker-compose.override.yml
+docker-compose.override.yaml
+.dockerignore
+
+# Données PostgreSQL persistantes (éviter de versionner données binaires)
+pgdata/

@@ -1,2 +1,2 @@
 # alpha
-3-Tier Web Application
+3-Tier web-applications
